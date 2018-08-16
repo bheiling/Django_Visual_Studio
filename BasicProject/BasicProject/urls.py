@@ -8,6 +8,7 @@ import django.contrib.auth.views
 
 import app.forms
 import app.views
+import HelloDjangoApp.views
 
 # Uncomment the next lines to enable the admin:
 # from django.conf.urls import include
@@ -19,6 +20,7 @@ urlpatterns = [
     url(r'^$', app.views.home, name='home'),
     url(r'^contact$', app.views.contact, name='contact'),
     url(r'^about$', app.views.about, name='about'),
+    url(r'^hello$', HelloDjangoApp.views.index, name='hello'),
     url(r'^login/$',
         django.contrib.auth.views.login,
         {
