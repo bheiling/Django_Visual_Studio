@@ -3,7 +3,7 @@ from django.http import HttpResponse
 from datetime import datetime
 
 # Create your views here.
-
+# https://docs.microsoft.com/en-us/visualstudio/python/learn-django-in-visual-studio-step-03-serve-static-files-and-add-pages
 #def index(request):
 #    now = datetime.now()
 
